@@ -1,10 +1,10 @@
-var carApp = angular.module('MyApp', ['ngRoute']);
+var app = angular.module('carApp', ['ngRoute']);
 
-carApp.config(function($routeProvider) {
+app.config(function($routeProvider) {
     $routeProvider.when('/', {
         templateUrl: '/views/company.html',
         controller: 'CompanyController as vm'
-    }).when('/about', {
+    }).when('/cars', {
         templateUrl: '/views/cars.html',
         controller: 'CarController as vm'
     }).otherwise({

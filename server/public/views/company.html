@@ -1,0 +1,14 @@
+
+<h1>Company Page</h1>
+<div >
+    {{vm}}
+</div>
+
+<input type="text" ng-model="vm.newCompany.name" placeholder="Company Name">
+<input type="text" ng-model="vm.newCompany.country" placeholder="Country of Origin">
+<button ng-click="vm.addNewCompany(vm.newCompany)">Submit</button>
+<ul>
+    <li ng-repeat="company in vm.companies.list">
+        {{company.name}} is located in {{company.country}}
+    </li>
+</ul>
