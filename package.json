@@ -1,0 +1,28 @@
+{
+  "name": "elnath-angular-services",
+  "version": "1.0.0",
+  "description": "lecture",
+  "main": "server/server.js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JWales13/elnath-angular-services.git"
+  },
+  "keywords": [],
+  "author": "jw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JWales13/elnath-angular-services/issues"
+  },
+  "homepage": "https://github.com/JWales13/elnath-angular-services#readme",
+  "dependencies": {
+    "angular": "^1.6.7",
+    "angular-route": "^1.6.7",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "pg": "^7.4.0"
+  }
+}
